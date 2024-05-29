@@ -8,6 +8,8 @@ import vMenu from "../../assets/icons/vMenu.png"
 
 import Hmenu from '../motor/Hmenu';
 import Vmenu from '../caravan/Vmenu';
+import Tuningvmenu from './vmenu';
+import HmenuT from './hmenu';
 
 
 
@@ -109,7 +111,7 @@ const TuningComponents = () => {
         </ItemRightWrapper>
       </ItemWrapper>
       <>{
-        active ? <Vmenu /> : < Hmenu />}</>
+        active ? <Tuningvmenu /> : < HmenuT />}</>
      
     
       </CatalogWrapper>

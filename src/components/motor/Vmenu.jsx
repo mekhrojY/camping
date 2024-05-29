@@ -16,7 +16,7 @@ const Vmenu = () => {
         
         <CardContainer key={key} $Vmenu>
      <ImgWrapper $Vmenu>
-  <img src={value.car.photo} alt='car-photo' />
+  <img src={value.car.photo} alt='car-rasm' />
   </ImgWrapper>
   <InfoWrapper $Vmenu>
   <InfoTitle>

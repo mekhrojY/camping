@@ -2,10 +2,11 @@ import React, { useState } from 'react'
 import { caravan } from '../mock/caravan';
 import { BgWrapper, CatalogWrapper, CheckboxWrapper, Container, CostWrapper, FilterMiniCons, InputStyler, ItemLeftWrapper, ItemRightWrapper, ItemWrapper, SearchandCompare, Wrapper } from '../styles/caravanStyle';
 
-import CaravanHmenu from '../motor/Hmenu';
+
 import CaravanVmenu from './Vmenu';
 import hMenu from "../../assets/icons/hMenu.png"
 import vMenu from "../../assets/icons/vMenu.png"
+import CaravanHmenu from './Hmenu';
 
 
 

@@ -25,6 +25,13 @@ import carinside1 from "../../assets/detailsimage/carinside1.png"
 import carinside2 from "../../assets/detailsimage/carinside2.png"
 import carinside3 from "../../assets/detailsimage/carinside3.png"
 import heatersystem from "../../assets/detailsimage/heatersystem.png"
+import campcarinside1 from "../../assets/detailsimage/campcarinside1.jpg"
+import campcarinside2 from "../../assets/detailsimage/campcarinside2.jpg"
+import campcarinside3 from "../../assets/detailsimage/campcarinside3.jpg"
+import portercar from "../../assets/detailsimage/portercar.jpg"
+import campcarinside5 from "../../assets/detailsimage/campcarinside5.jpg"
+
+import campcarinside4 from "../../assets/detailsimage/campcarinside4.jpg"
 export const campcar = {
   maindata: [
     {
@@ -40,7 +47,7 @@ export const campcar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 4.5,
-        photo2: `${camp}`,
+        campcarpic: `${camp}`,
        price: "50.000$",
         people:"12",
         nom: "company",
@@ -49,20 +56,25 @@ export const campcar = {
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
-          photo3: `${campcarinside}`,  
+          campinsidepic: `${campcarinside}`,  
           nom:  "Comfort"  ,
           carinsideImg:  `${carinside1}`,
           nom1: "Tidying away is child's play!",
           tidying:"Car camping is a fantastic way to enjoy the outdoors with a bit more comfort and convenience. Whether you're road-tripping, exploring national parks, or just spending a weekend in nature, here are some tips for keeping your car camp tidy and organized. Use Storage Bins:Invest in collapsible storage bins or boxes to keep your gear organized. Label them for easy access.Separate Dirty and Clean Items:Use separate bags or containers for dirty clothes, shoes, and wet gear.",
           nom2:"Ventilated , Lit up",
           ventilate:"Certainly! When it comes to camping in your car, ensuring proper ventilation is essential for comfort, safety, and overall well-being. Here are some tips and ideas to improve ventilation during your car camping adventures. Dry Wet Gear Outside: If you have wet gear (such as rain-soaked clothes or shoes), avoid keeping them inside the car. Hang them outside or use a designated area to dry them. If you have wet gear (such as rain-soaked clothes or shoes), avoid keeping them inside the car. Hang them outside or use a designated area to dry them.",
-        photo4:`${carinside2}`,
-        photo5: `${carinside3}`,
+        carinsidepic2:`${carinside2}`,
+        carinsidepic3: `${carinside3}`,
         nom4:"Easy access",
         easyaccesstext:"Winnebago Travato:The Winnebago Travato is a versatile camper van that offers user-friendly features. It has a low step-in height and wide side doors, making entry and exit simple. The interior is designed with ergonomics in mind, ensuring everything is within easy reach.Thor Motor Coach Sequence:The Thor Motor Coach Sequence is a popular choice for its practicality and ease of use. It has a low profile, which makes stepping in and out straightforward. The interior is arranged to maximize space and accessibility, ensuring a comfortable experience.Coachmen Galleria:he Coachmen Galleria is designed with convenience in mind. It features a low entry step and wide doorways for easy access. The interior is thoughtfully designed to provide maximum comfort and accessibility, ensuring an enjoyable camping experience.",
        nom5:"Heating when driving",
        heatingtext:"There are several types of heating systems commonly used in camping cars (also known as RVs or motorhomes), each with its own advantages and considerations. Here are some of the most common types: Propane heaters are one of the most common heating options for camping cars. They use propane gas to generate heat.Electric heaters use electrical power to generate heat. These can include portable electric heaters or built-in systems.Hydronic heating systems use a liquid (usually a mixture of water and antifreeze) that is heated and circulated through radiators or underfloor heating.Heat pumps can provide both heating and cooling. They work by transferring heat from the outside air into the vehicle.",
+        carinsidepic4:`${heatersystem}`,
+        photo3: `${campcarinside5}`,  
+        photo4:`${campcarinside4}`,
+        photo5: `${carinside3}`,
         photo6:`${heatersystem}`
+
         }
       },
     },
@@ -76,26 +88,28 @@ export const campcar = {
         license: "1종 보통",
         people: "4인",
         date: "22년 03월",
+        
         company: "다온티앤티",
         location: "수도권",
         rate: 4.5,
-        photo2: `${camp}`,
-       price: "50.000$",
+        photo2: `${img}`,
+       price: "75.000$",
         people:"12",
         nom: "company",
         nom1: "people",
         nom3: "License type",   
+        campcarpic: `${img1}`,
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
-          photo3: `${campcarinside}`,  
+          photo3: `${campcarinside1}`,  
           nom:  "Comfort"  ,
-          carinsideImg:  `${carinside1}`,
+          carinsideImg:  `${campcarinside2}`,
           nom1: "Tidying away is child's play!",
           tidying:"Car camping is a fantastic way to enjoy the outdoors with a bit more comfort and convenience. Whether you're road-tripping, exploring national parks, or just spending a weekend in nature, here are some tips for keeping your car camp tidy and organized. Use Storage Bins:Invest in collapsible storage bins or boxes to keep your gear organized. Label them for easy access.Separate Dirty and Clean Items:Use separate bags or containers for dirty clothes, shoes, and wet gear.",
           nom2:"Ventilated , Lit up",
           ventilate:"Certainly! When it comes to camping in your car, ensuring proper ventilation is essential for comfort, safety, and overall well-being. Here are some tips and ideas to improve ventilation during your car camping adventures. Dry Wet Gear Outside: If you have wet gear (such as rain-soaked clothes or shoes), avoid keeping them inside the car. Hang them outside or use a designated area to dry them. If you have wet gear (such as rain-soaked clothes or shoes), avoid keeping them inside the car. Hang them outside or use a designated area to dry them.",
-        photo4:`${carinside2}`,
+        photo4:`${campcarinside3}`,
         photo5: `${carinside3}`,
         nom4:"Easy access",
         easyaccesstext:"Winnebago Travato:The Winnebago Travato is a versatile camper van that offers user-friendly features. It has a low step-in height and wide side doors, making entry and exit simple. The interior is designed with ergonomics in mind, ensuring everything is within easy reach.Thor Motor Coach Sequence:The Thor Motor Coach Sequence is a popular choice for its practicality and ease of use. It has a low profile, which makes stepping in and out straightforward. The interior is arranged to maximize space and accessibility, ensuring a comfortable experience.Coachmen Galleria:he Coachmen Galleria is designed with convenience in mind. It features a low entry step and wide doorways for easy access. The interior is thoughtfully designed to provide maximum comfort and accessibility, ensuring an enjoyable camping experience.",
@@ -118,12 +132,13 @@ export const campcar = {
         company: "다온티앤티",
         location: "수도권",
         rate: 4.5,
-        photo2: `${camp}`,
+        photo2: `${portercar}`,
        price: "50.000$",
         people:"12",
         nom: "company",
         nom1: "people",
-        nom3: "License type",   
+        nom3: "License type",  
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -163,6 +178,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",  
+        campcarpic: `${img5}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -202,6 +218,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -241,6 +258,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -280,6 +298,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -319,6 +338,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -358,6 +378,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -397,6 +418,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -436,6 +458,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -475,6 +498,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -514,6 +538,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -553,6 +578,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -592,6 +618,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -631,6 +658,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -670,6 +698,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -709,6 +738,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -749,6 +779,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",
@@ -788,6 +819,7 @@ export const campcar = {
         nom: "company",
         nom1: "people",
         nom3: "License type",
+        campcarpic: `${portercar}`, 
         desc:{
           photo: `${motorDetailBg1}`,
           comfort: "Certainly! When it comes to camping car comforts, having the right gear can make your outdoor experience much more enjoyable. Whether you're car camping, van life-ing, or road-tripping, here are some essential items to enhance your comfort. Camp Shower (NEMO Helio Pressure Shower):This portable shower doesn't rely on gravity. It features a foot pump to pressurize the 2.9-gallon tank, providing a refreshing shower experience. Hang it in the sun to warm up the water",

@@ -1,9 +1,11 @@
 import React from 'react'
-import { Button, ButtonWrapper,  CardContainer, ImgWrapper, InfoTitle, InfoWrapper } from '../styles/motorStyle'
-import { campcar } from '../mock/mockdata';
 
-const Vmenu = () => {
-  const data = campcar.maindata;
+
+import { caravan } from '../mock/caravan';
+import { Button, ButtonWrapper, CardContainer, ImgWrapper, InfoTitle, InfoWrapper } from '../styles/caravanStyle';
+
+const CaravanVmenu = () => {
+  const data = caravan.maindata;
   const dataLength = data.length;
   console.log("data:",data.length )
   return (
@@ -13,16 +15,16 @@ const Vmenu = () => {
       
       return <CardContainer key={key} $Vmenu>
      <ImgWrapper $Vmenu>
-  <img src={value.car.photo} alt='car-photo' />
+  <img src={value.caravan.image} alt='car-rasm' />
   </ImgWrapper>
   <InfoWrapper $Vmenu>
   <InfoTitle>
   <div>
-      <h1>{value.car.name || "no data"}</h1>
-      <p>{value.car.company || "no data"}</p>
+      <h1>{value.caravan.name || "no data"}</h1>
+      <p>{value.caravan.company || "no data"}</p>
       </div>
       <div>
-      <h2> {value.car.cost} </h2>
+      <h2> {value.caravan.cost} </h2>
       <h2> 5.3</h2>
       </div>
       </InfoTitle>
@@ -39,4 +41,4 @@ const Vmenu = () => {
   )
 }
 
-export default Vmenu
+export default CaravanVmenu

@@ -46,7 +46,7 @@ background-image:url(${motorBg});
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-height: 600px;
+height: 700px;
 width:100%;
 display: flex;
 justify-content: center;

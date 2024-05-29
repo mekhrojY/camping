@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { campcar } from '../../mock/mockdata';
-import { Border,  ContainerDetail, DetailBg, DivLeft, DivRight, DivRight1, DivRight2, FifthCon, FifthConLeft, FifthConRight, FourthCon, FourthConLeft, FourthConRight, SecondDiv, SeventhCon, SeventhConLeft, SeventhConRight, SixConLeft, SixthCon, SixthConRight, ThirdCon, ThirdConRight, Thirdconleft } from '../../styles/motordetail';
+import { Border,  Butoons,  ContainerDetail, DetailBg, DivLeft, DivRight, DivRight1, DivRight2, FifthCon, FifthConLeft, FifthConRight, FourthCon, FourthConLeft, FourthConRight, SecondDiv, SeventhCon, SeventhConLeft, SeventhConRight, SixConLeft, SixthCon, SixthConRight, ThirdCon, ThirdConRight, Thirdconleft } from '../../styles/motordetail';
 
 
 const DetailsPage = () => {
@@ -19,16 +19,16 @@ console.log(resultdata)
     <ContainerDetail> 
     
     <DetailBg style={{backgroundImage: `url(${resultdata.car.desc.photo})`, backgroundSize: "cover", height:"700px", backgroundPosition:"center", justifyContent: "center", alignItems:"center", display:"flex", color:"white"}}>
-     <h1>Aidal</h1>
-     <div>
+     <h1>{resultdata.car.name}</h1>
+     <Butoons>
      <button> ADD TO CART </button>
      <button> COMPARE</button>
-     </div> 
+     </Butoons> 
      </DetailBg>
 
      <SecondDiv>
       <DivLeft>
-    <img src={resultdata.car.photo2} style={{width:"700px"}}/>
+    <img src={resultdata.car.campcarpic} style={{width:"700px"}}/>
       </DivLeft>
       <DivRight>
       <DivRight1>

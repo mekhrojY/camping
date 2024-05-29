@@ -2,7 +2,7 @@ import React from 'react'
 import { usedCar } from '../mock/usedCar';
 import { Button, ButtonWrapper, CarWrapper, CardContainer, ImgWrapper, InfoWrapper } from '../styles/usedCarStyle';
 
-const Hmenu = () => {
+const UsedHmenu = () => {
     const data = usedCar.maindata;
   const dataLength = data.length;
   console.log("data:",data.length )
@@ -13,12 +13,12 @@ const Hmenu = () => {
       
       return <CardContainer key={key}>
      <ImgWrapper>
-  <img src={value.car.photo} alt='car-rasm' />
+  <img src={value.used.image} alt='rasm' />
   </ImgWrapper>
   <InfoWrapper>
-      <h1>{value.car.name || "no data"}</h1>
-      <p>{value.car.company || "no data"}</p>
-      <h2> {value.car.cost} </h2>
+      <h1>{value.used.name || "no data"}</h1>
+      <p>{value.used.company || "no data"}</p>
+      <h2> {value.used.cost} </h2>
      
      <ButtonWrapper>
       <Button $Vmenu>Order</Button>
@@ -32,4 +32,4 @@ const Hmenu = () => {
   )
 }
 
-export default Hmenu
+export default UsedHmenu

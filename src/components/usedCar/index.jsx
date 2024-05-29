@@ -1,11 +1,12 @@
 
 import React, { useState } from 'react'
 import { usedCar } from '../mock/usedCar';
-import { BgWrapper,  CatalogWrapper, CheckboxWrapper, Container, CostWrapper, FilterMiniCons, InputStyler, ItemLeftWrapper, ItemRightWrapper, ItemWrapper, SearchandCompare, Wrapper } from '../styles/usedCarStyle';
-import Vmenu from './Vmenu';
-import Hmenu from './Hmenu';
+
 import hMenu from "../../assets/icons/hMenu.png"
 import vMenu from "../../assets/icons/vMenu.png"
+import UsedHmenu from './Hmenu';
+import UsedVmenu from './Vmenu';
+import { BgWrapper, CatalogWrapper, CheckboxWrapper, Container, CostWrapper, FilterMiniCons, InputStyler, ItemLeftWrapper, ItemRightWrapper, ItemWrapper, SearchandCompare, Wrapper } from '../styles/usedCarStyle';
 
 const UsedCarComp = () => {
   const [active, setActive] = useState  (false);
@@ -20,7 +21,7 @@ const UsedCarComp = () => {
   return (
     <Container>
       <BgWrapper>
-        <p>Home / Caravan</p>
+        <p>Home / Used Car</p>
         <h2>Our models</h2>
         <h1>Used Car</h1>
       </BgWrapper>
@@ -105,7 +106,7 @@ const UsedCarComp = () => {
           </ItemRightWrapper>
         </ItemWrapper>
         <>{
-          active ? <Vmenu/> : <Hmenu/>}</>
+          active ? <UsedVmenu/> : <UsedHmenu/>}</>
        
       
         </CatalogWrapper>

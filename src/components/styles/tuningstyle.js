@@ -63,7 +63,7 @@ display: flex;
 flex-direction: column;
 
 p{
-    padding: 10px;
+  
     margin-bottom: 5px;
     color: var(--text, #373737);
 font-family: Montserrat;

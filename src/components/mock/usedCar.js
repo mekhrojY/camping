@@ -27,7 +27,7 @@ export const usedCar = {
                 image: `${img1}`, 
                 name: "Used car 1", 
                 price: "200,000", 
-                company: "be-coder-Ali", 
+                company: "be-coder", 
                 rating: "2.3" 
             } 
         }, 
@@ -37,7 +37,7 @@ export const usedCar = {
                 image: `${img2}`, 
                 name: "Used car 2", 
                 price: "230,000", 
-                company: "be-coder-Ali", 
+                company: "be-coder", 
                 rating: "4.0" 
             } 
         }, 

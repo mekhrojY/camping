@@ -1,31 +1,41 @@
 import React from 'react'
 import { caravan } from '../mock/caravan';
 import { Button, ButtonWrapper, CarWrapper, CardContainer, ImgWrapper, InfoWrapper } from '../styles/caravanStyle';
+import { Link } from 'react-router-dom';
 
 const CaravanHmenu = () => {
   const data = caravan.maindata;
   const dataLength = data.length;
   console.log("data:",data.length )
-  return (
+  return  (
     <CarWrapper>
-    {
-     data.map((value, key) => {
-      
-      return <CardContainer key={key}>
+{
+ data.map((value, key) => {
+  
+    return (
+    <>
+    <Link to={`${value.id}`} style={{textDecoration:"none", color:"black"}} >
+        <CardContainer key={key}>
      <ImgWrapper>
-  <img src={value.car.photo} alt='car-photo' />
+  <img src={value.caravan.image} alt='car-photo' />
   </ImgWrapper>
   <InfoWrapper>
-      <h1>{value.car.name || "no data"}</h1>
-      <p>{value.car.company || "no data"}</p>
-      <h2> {value.car.cost} </h2>
+      <h1>{value.caravan.name || "no data"}</h1>
+      <p>{value.caravan.company || "no data"}</p>
+      <h2> {value.caravan.cost} </h2>
      
      <ButtonWrapper>
-      <Button $Vmenu>Order</Button>
-      <Button $Vmenu>Compare</Button>
+      <Button>Order</Button>
+      <Button>Compare</Button>
       </ButtonWrapper>
       </InfoWrapper>
-      </CardContainer>
+      </CardContainer> 
+      </Link>
+      </>
+
+      );
+    
+      
      })
     }
     </CarWrapper>

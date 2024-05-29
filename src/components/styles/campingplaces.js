@@ -13,7 +13,7 @@ background-size: cover;
 background-repeat: no-repeat;
 
 height: 700px;
-width: 100%;
+
 display: flex;
 align-items: center;
 justify-content: center;
@@ -22,16 +22,36 @@ color: white;
 h1{
 
     font-size: 80px;
+    color: #FFF;
+
+font-family: Montserrat;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     
   }
 h2{
-    font-size: 35px;
- 
+    font-size: 50px;
+    color: #FFF;
+
+font-family: Montserrat;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
 
 }
 p{
     font-size: 25 px;
+    color: #FFF;
+
+font-family: Montserrat;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
 }
 
@@ -56,15 +76,15 @@ flex: 2;
 padding: 0px 20px;
 display: flex;
 flex-direction: column;
-margin-top: 10px ;
+
 `
 export const FilterMiniCons = styled.div`
 display: flex;
 flex-direction: column;
 
 p{
-    padding: 10px;
-    margin-bottom: 5px;
+    margin-top:13px;
+   
     color: var(--text, #373737);
 font-family: Montserrat;
 font-size: 18px;
@@ -141,13 +161,15 @@ display: flex;
 border-bottom: 2px solid #37373780;
 margin-bottom: 20px;
 
-padding-bottom: 5px;
+
+padding: 10px ;
 
 
 `
 export const ItemLeftWrapper = styled.div`
 flex: 1;
 display: flex;
+
 
 p{
     margin-left: 5px;
@@ -216,6 +238,9 @@ h2{
 export const ImgWrapper = styled.div`
 
 flex: ${props => props.$Vmenu ? "1" : ""};
+display: flex;
+justify-content: center;
+align-items: center ;
 
 
 `
@@ -246,7 +271,7 @@ padding: 8px 15px;
 border-radius: 12px;
 border: 2px solid #006DAB ;
 //width: 100px;
-width: ${props => props.$Vmenu ? "350px" : "120px"};
+width: ${props => props.$Vmenu ? "350px" : "110px"};
 align-items: center;
 justify-content: center;
 background-color: transparent;

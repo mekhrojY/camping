@@ -11,7 +11,7 @@ background-image:url(${caravanBg});
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-height: 600px;
+height: 700px;
 width: 100%;
 display: flex;
 align-items: center;
@@ -58,7 +58,7 @@ display: flex;
 flex-direction: column;
 
 p{
-    padding: 10px;
+    
     margin-bottom: 5px;
     color: var(--text, #373737);
 font-family: Montserrat;
@@ -241,7 +241,7 @@ padding: 8px 15px;
 border-radius: 12px;
 border: 2px solid #006DAB ;
 //width: 100px;
-width: ${props => props.$Vmenu ? "350px" : "120px"};
+width: ${props => props.$Vmenu ? "350px" : "110px"};
 align-items: center;
 justify-content: center;
 background-color: transparent;

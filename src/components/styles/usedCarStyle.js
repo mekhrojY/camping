@@ -11,7 +11,7 @@ background-image:url(${usedCarBg});
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-height: 600px;
+height: 700px;
 width: 100%;
 display: flex;
 align-items: center;
@@ -35,8 +35,9 @@ p{
 export const Wrapper = styled.div`
 display: flex;
 margin-top: 60px;
-height: 600px;
+height: 700px;
 padding: 20px 15%;
+
 img{
 width: 202.42px;
 height: 137.433px;
@@ -197,6 +198,7 @@ display: flex;
 
 flex-direction: ${props => props.$Vmenu ? "row" : "column"};
 border-radius: 20px;
+
 padding: 15px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 h1{
@@ -209,6 +211,9 @@ h2{
 `
 
 export const ImgWrapper = styled.div`
+display: flex;
+justify-content: center;
+align-items: center ;
 
 flex: ${props => props.$Vmenu ? "1" : ""};
 
@@ -220,16 +225,19 @@ display: flex;
 flex-direction: column;
 flex: ${props => props.$Vmenu ? "2" : ""};
 
+
 `
 export const InfoTitle = styled.div`
 display: flex;
 justify-content: space-between;
+
 `
 export const ButtonWrapper = styled.div`
 display: flex;
 
 justify-content: space-around;
 margin-top: 15px;
+
 :hover {
     color: white;
     background-color: #006DAB;
@@ -240,11 +248,14 @@ display: flex;
 padding: 8px 15px;
 border-radius: 12px;
 border: 2px solid #006DAB ;
+width: ${props=> props.$Vmenu ? "110px" : "350px"};
 //width: 100px;
-width: ${props => props.$Vmenu ? "350px" : "120px"};
+
+
 align-items: center;
 justify-content: center;
 background-color: transparent;
 cursor: pointer;
 
 `
+
